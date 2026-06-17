@@ -1,0 +1,71 @@
+/* Hallmark · genre: editorial · macrostructure: Narrative Workflow · theme: Almanac
+ * tone: technical-editorial · anchor hue: 160 (pine) · nav: N3 side-rail · footer: Ft4 dense colophon
+ * enrichment: none (real paper figures) · axes: paper-light / display roman-serif / accent chromatic-green
+ * F4 step-sequence knobs: numbering=1.0/2.0/3.0, layout=vertical-stack, connector=line
+ * pre-emit critique: P5 H4 E5 S4 R5 V5
+ */
+
+:root {
+  /* ---- Type families (2 + 1) ---- */
+  --font-display: "Newsreader", ui-serif, Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* ---- Palette · OKLCH · anchor hue 160 (pine), pale-sage paper ---- */
+  --color-paper: oklch(97.6% 0.006 160);
+  --color-paper-2: oklch(95.2% 0.008 160);
+  --color-paper-3: oklch(92.4% 0.010 160);
+  --color-rule: oklch(85% 0.010 160);
+  --color-rule-soft: oklch(89% 0.008 160);
+  --color-neutral: oklch(58% 0.012 162);
+  --color-muted: oklch(44% 0.014 163);
+  --color-ink: oklch(23% 0.016 165);
+  --color-ink-2: oklch(31% 0.016 165);
+
+  --color-accent: oklch(48% 0.108 168);
+  --color-accent-soft: oklch(62% 0.080 168);
+  --color-accent-wash: oklch(94% 0.030 168);
+  --color-focus: oklch(52% 0.13 168);
+
+  /* ---- Spacing · 4pt scale ---- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.25rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5rem;
+  --space-3xl: 7.5rem;
+
+  /* ---- Type scale · major third (1.25) ---- */
+  --text-xs: 0.75rem;
+  --text-sm: 0.85rem;
+  --text-base: 1.0625rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.9531rem;
+  --text-2xl: 2.4414rem;
+  --text-3xl: 3.0518rem;
+  --text-display: clamp(2.75rem, 5vw + 1rem, 5rem);
+  --text-display-s: clamp(2.25rem, 3.5vw + 1rem, 3.5rem);
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 480ms;
+
+  /* ---- Misc ---- */
+  --rule-hair: 1px;
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --measure: 66ch;
+
+  /* ---- z-index scale ---- */
+  --z-base: 1;
+  --z-rail: 10;
+  --z-skip: 60;
+}
