@@ -43,10 +43,6 @@ export default function App() {
               </dd>
             </div>
             <div>
-              <dt>Affiliation</dt>
-              <dd>{meta.department}</dd>
-            </div>
-            <div>
               <dt>Organism</dt>
               <dd>
                 <i>{meta.organism}</i>
@@ -239,7 +235,7 @@ export default function App() {
         <footer className="colophon mono">
           <p className="colophon__cite">
             N. T. E. Pazon and C. V. M. Montero, &ldquo;{meta.manuscriptTitle}
-            ,&rdquo; {meta.department}, {meta.date}.
+            ,&rdquo; {meta.date}.
           </p>
           <p className="colophon__meta">
             Thesis &mdash; {meta.thesisTitle}. &nbsp;//&nbsp; Pipeline: empirical{" "}
@@ -258,10 +254,6 @@ export default function App() {
             <i>Lancet Infect. Dis.</i>, 13(12):1057&ndash;1098, 2013. &nbsp; [3]
             Ventola, &ldquo;The antibiotic resistance crisis: Part 1,&rdquo;{" "}
             <i>P&amp;T</i>, 40(4):277&ndash;283, 2015.
-          </p>
-          <p className="colophon__sign">
-            Set in Newsreader, IBM Plex Sans &amp; IBM Plex Mono. Built for a
-            research conference, {meta.date}.
           </p>
         </footer>
       </main>

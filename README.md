@@ -1,6 +1,6 @@
 # ESPF-SR — Conference Presentation
 
-A modern web-app presentation of the thesis **“Evolutionary Simulation and Prediction of Superbugs’ Generational Resistance Trajectories”** (Pazon & Montero, June 2025) and its IEEE conference manuscript, *Schedule-Aware PK/PD–Wright–Fisher Simulation of* Stenotrophomonas maltophilia *Resistance Under Cyclical and Alternating Therapy*.
+A modern web-app presentation of the thesis **“Evolutionary Simulation and Prediction of Superbugs’ Generational Resistance Trajectories”** (Pazon & Montero, June 2026) and its IEEE conference manuscript, *Schedule-Aware PK/PD–Wright–Fisher Simulation of* Stenotrophomonas maltophilia *Resistance Under Cyclical and Alternating Therapy*.
 
 The site is a single scrollable narrative built for a research-conference audience: it walks the pipeline (genome → PK/PD pressure → Wright–Fisher evolution → outcomes) as numbered stages, surfaces the real result figures, and closes with the discussion, limitations, and citation colophon.
 

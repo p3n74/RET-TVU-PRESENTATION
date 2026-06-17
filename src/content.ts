@@ -1,5 +1,5 @@
 // Content for the conference presentation. Every figure, number, and claim here is
-// drawn from the thesis (Pazon & Montero, June 2025) and its IEEE conference
+// drawn from the thesis (Pazon & Montero, June 2026) and its IEEE conference
 // manuscript. No metric is invented; placeholders are not used.
 
 export const meta = {
@@ -12,8 +12,7 @@ export const meta = {
     { name: "Nikolai Tristan E. Pazon" },
     { name: "Charles Vincent M. Montero" },
   ],
-  department: "Department of Computer Information Sciences and Mathematics",
-  date: "June 2025",
+  date: "June 2026",
   organism: "Stenotrophomonas maltophilia",
 };
 
